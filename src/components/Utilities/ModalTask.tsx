@@ -117,7 +117,7 @@ const ModalCreateTask: React.FC<{
         onSubmit={addNewTaskHandler}
       >
         <label>
-          Title
+          Название
           <input
             type="text"
             placeholder="e.g, study for the test"
@@ -128,7 +128,7 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Date
+          Срок
           <input
             type="date"
             className="w-full"
@@ -140,7 +140,7 @@ const ModalCreateTask: React.FC<{
           />
         </label>
         <label>
-          Description (optional)
+          Описание(не обязательно)
           <textarea
             placeholder="e.g, study for the test"
             className="w-full"
@@ -149,7 +149,7 @@ const ModalCreateTask: React.FC<{
           ></textarea>
         </label>
         <label>
-          Select a directory
+          Выберите организацию
           <select
             className="block w-full"
             value={selectedDirectory}
@@ -169,12 +169,12 @@ const ModalCreateTask: React.FC<{
         <InputCheckbox
           isChecked={isImportant}
           setChecked={setIsImportant}
-          label="Mark as important"
+          label="Пометить как срочную"
         />
         <InputCheckbox
           isChecked={isCompleted}
           setChecked={setIsCompleted}
-          label="Mark as completed"
+          label="Пометить как выполненную"
         />
         <button type="submit" className="btn mt-5">
           {nameForm}

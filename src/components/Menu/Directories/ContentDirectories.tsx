@@ -36,8 +36,8 @@ const ContentDirectories: React.FC<{ classActive: string }> = ({
         <ModalDirectory
           onClose={closeModalDirectoryHandler}
           onConfirm={createNewDirectoryHandler}
-          btnText="Create"
-          title="Create new directory"
+          btnText="Создать"
+          title="Создать новую организацию"
         />
       )}
 
@@ -50,7 +50,7 @@ const ContentDirectories: React.FC<{ classActive: string }> = ({
         onClick={() => setModalDirIsShown(true)}
         className="px-3 py-1 border-slate-300 dark:border-slate-700 border-2 ml-9 mt-2 rounded-md border-dashed hover:text-violet-500"
       >
-        + New
+        + Новая
       </button>
     </>
   );

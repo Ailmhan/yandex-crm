@@ -61,7 +61,7 @@ const SearchField: React.FC = () => {
         <input
           type="search"
           id="search"
-          placeholder="Search task"
+          placeholder="Исказть заявку"
           ref={searchResultsRef}
           onKeyUp={({ currentTarget }) => {
             setSearchInputValue(currentTarget.value);

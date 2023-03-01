@@ -3,23 +3,23 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const links = [
   {
-    name: "Today's tasks",
+    name: "Текущие заявки",
     path: "/today",
   },
   {
-    name: "All tasks",
+    name: "Все заявки",
     path: "/",
   },
   {
-    name: "Important tasks",
+    name: "Регламентные заявки",
     path: "/important",
   },
   {
-    name: "Completed tasks",
+    name: "Выполненные заявки",
     path: "/completed",
   },
   {
-    name: "Uncompleted tasks",
+    name: "Не выполненные заявки",
     path: "/uncompleted",
   },
 ];

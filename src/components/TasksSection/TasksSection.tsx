@@ -19,11 +19,11 @@ const TasksSection: React.FC = () => {
         <Route path="/important" element={<ImportantTasks />} />
         <Route
           path="/completed"
-          element={<DoneTasks done={true} title="Completed tasks" />}
+          element={<DoneTasks done={true} title="Выполненные заявки" />}
         />
         <Route
           path="/uncompleted"
-          element={<DoneTasks done={false} title="Uncompleted tasks" />}
+          element={<DoneTasks done={false} title="Не выполненные заявки" />}
         />
         <Route path="/results" element={<SearchResults />} />
         <Route path="/dir/:dir" element={<Directory />} />
